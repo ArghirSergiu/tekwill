@@ -14,7 +14,7 @@ public class LearningWhile {
 		  }}
 			
 			  System.out.println("____Numere impare interval 50-100 :_____");
-		  while(impar<=99){
+		  while(impar<100){
 			  impar++;
 			  if(impar%2==1){
            System.out.println (impar);
