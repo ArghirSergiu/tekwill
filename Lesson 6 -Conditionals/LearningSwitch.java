@@ -1,71 +1,53 @@
 public class LearningSwitch{
       public static void main (String [] args){
-          final char a ='A',b='B',c='C',d='D',e='E',f='F',g='G',h='H';
+          final char a ='A',b='B',c='C',d='D',e='E',f='F',g='G',h='H',i='I',j='J',k='K',l='L',m='M',n='N',o='O',p='P',q='Q',r='R',s='S',t='T',u='U',v='V',w='W',x='X',y='Y',z='Z';
           
          char litera ='F';
          switch (litera){
-                 case a:
-                System.out.println("Litera introdusa este o vocala" );
-                       break;
-                case b:
-                System.out.println("Litera introdusa este o consoana" );
-                       break;
- 	case c:
-                System.out.println("Litera introdusa este o consoana" );
-                       break;
-                  case d:
-                System.out.println("Litera introdusa este o consoana" );
-                       break;
-                 case e:
-                System.out.println("Litera introdusa este o vocala" );
-                       break;
-				case f:
-                System.out.println("Litera introdusa este o consoana" );
-                       break;
-					case g:
-                System.out.println("Litera introdusa este o consoana" );
-                       break;
-                  case h:
-                System.out.println("Litera introdusa este o consoana" );
-                       break;
-              default:
-                           System.out.println("Litera data nu e introdusa in sir !");
+                case a:
+                case e:
+                case i:
+                case o:
+                case u:
+                  System.out.println("Litera introdusa este o vocala" );
+                    break;
+                default:
+                    System.out.println("Litera introdusa este o consoana");
 		}
-			final byte q=1,w=2,m=3,r=4,t=5,y=6,u=7,i=8,o=9,p=10;
+			final byte qa=1,wa=2,ma=3,ra=4,ta=5,ya=6,ua=7,ia=8,oa=9,pa=10;
             byte nota = 8;
-                System.out.println(nota);
-			  switch (nota){
-             case q:
-                System.out.println("Nota Insuficienta!" );
+                switch (nota){
+                case qa:
+                System.out.println("Nota "+nota+"  Insuficienta!" );
                        break;
-  	            case w:
-                System.out.println("Nota Insuficienta!" );
+  	            case wa:
+                System.out.println("Nota "+nota+"  Insuficienta!" );
                        break;
-                 case m:
-                System.out.println("Nota Insuficienta!" );
+                 case ma:
+                System.out.println("Nota "+nota+"  Insuficienta!" );
                        break;
-                case r:
-                System.out.println("Nota Insuficienta!" );
+                case ra:
+                System.out.println("Nota "+nota+"  Insuficienta!" );
                        break;
-                 case t:
-                System.out.println("Nota Insuficienta!" );
+                case ta:
+                System.out.println("Nota "+nota+"   Insuficienta!" );
                        break;
-               case y:
-                System.out.println("Satisfacator!" );
+                case ya:
+                System.out.println(+nota+"  Satisfacator!" );
                        break;
-				case u:
-                System.out.println("Satisfacator!" );
+                case ua:
+                System.out.println(+nota+"  Satisfacator!" );
                        break;
-				case i:
-                System.out.println("Bine !" );
+				case ia:
+                System.out.println(+nota+"  Bine !" );
                        break;
-                 case o:
-                System.out.println("Bine!" );
+                 case oa:
+                System.out.println(+nota+"  Bine!" );
                        break;
-                 case p:
-                System.out.println("Formidabil!" );
+                case pa:
+                System.out.println(+nota+"  Formidabil!" );
                        break;
-               default : 
+                default : 
                 System.out.println("Nota trebuie sa fie intre 1 si 10... Mai incercati.... " );
                        break;
 
