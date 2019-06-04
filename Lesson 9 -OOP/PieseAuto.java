@@ -3,15 +3,15 @@ public class PieseAuto {
 	String denum;
 	int quantity;
 
-	public void stock(){
+	    public void stock(){
 	    System.out.println(" Piesa este in stoc");
-    }
-    public void mount(){
+        }
+        public void mount(){
     	System.out.println("  Piesa se instaleaza");
-      	 }
-    public void unmount(){
+      	}
+        public void unmount(){
     	System.out.println("  Piesa se dezinstaleaza");
-    }
+        }
     	public static void main (String [] args){
     	 PieseAuto pa1= new PieseAuto();
          pa1.tip= "Suspensie";
